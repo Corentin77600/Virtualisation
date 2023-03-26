@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>
+    Les stations de recharges de véhicules électriques à Paris
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="bootstrap.min.css" rel="stylesheet" />
+  <link href="paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/026c37309b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="" style="overflow-x: hidden;">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="white" data-active-color="danger" scrolling="no">
+      <div class="logo">
+        <a href="https://www.creative-tim.com" class="simple-text logo-mini">
+          
+        </a>
+        <i class="fas fa-file-code" style="color:#52DA60;">
+		<font size="+2" color="#52DA60">Dashboard</font>
+          
+        </i>
+      </div>
+      <div class="sidebar-wrapper" style="overflow: hidden;">
+        <ul class="nav">
+          <li class="active ">
+            <a href="./dashboard.html">
+              <i class="fas fa-tachometer-alt"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <a class="navbar-brand" href="javascript:;">Les stations de recharges de véhicules électriques à Paris</a>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card ">
+              <div class="card-header ">
+                <h5 class="card-title">Emplacement des stations de recharges de véhicules électriques à Paris </h5>
+
+              </div>
+              <div class="card-body ">
+                <iframe scrolling="no" width="1170" height="450" src="map.html"></iframe>
+                <a href="map.html" style="margin-top:-5px; margin-left: 5px; text-decoration: none; color:#52DA60" onclick="window.open(this.href); return false;">Ouvrir dans un nouvel onglet</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card ">
+              <div class="card-header ">
+                <h5 class="card-title">Proportion des points de recharge par arrondissement</h5>
+              </div>
+              <div class="card-body ">
+                <iframe scrolling="no" width="1000" height="510" style="margin-left:-250px;margin-top: -30px; border: none;" src="diag_circ.html"></iframe>
+                <a href="diag_circ.html" style="margin-left: 175px; text-decoration: none; border :none; color:#52DA60" onclick="window.open(this.href); return false;">Ouvrir dans un nouvel onglet</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card card-chart">
+              <div class="card-header">
+                <h5 class="card-title">Proportion des opérateurs des points de recharge à Paris</h5>
+              </div>
+              <div class="card-body ">
+                <iframe scrolling="no" width="1000" height="500" style="margin-left:-250px;margin-top: -8px; border: none;" src="diag_ope.html"></iframe>
+                <a href="diag_ope.html" style="margin-left: 175px; text-decoration: none; border :none; color:#52DA60" onclick="window.open(this.href); return false;">Ouvrir dans un nouvel onglet</a>
+              </div>
+            </div>
+          </div>
+        </div>
+		<div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card ">
+              <div class="card-header ">
+                <h5 class="card-title">Nombre de points de recharge par arrondissement </h5>
+
+              </div>
+              <div class="card-body ">
+                <iframe scrolling="no" width="1170" height="530" src="histo.html" style="border:none;"></iframe>
+                <a href="histo.html" style="margin-top:-5px; margin-left: 50px; text-decoration: none; color:#52DA60" onclick="window.open(this.href); return false;">Ouvrir dans un nouvel onglet</a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+      </div>
+      <footer class="footer footer-black  footer-white ">
+        <div class="container-fluid">
+          <div class="row">
+            <nav class="footer-nav">
+            <div class="credits ml-auto">
+              <span class="copyright">by Corentin LE NAOUR
+              </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  
+</body>
+
+</html>
